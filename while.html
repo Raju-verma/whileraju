@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <label>numbers</label>
+    <input type="text" id="num"><br><br>
+    <button onclick="check()">click</button>
+    <span id="check"></span>
+    <script>
+        function check(){
+            let a = parseInt(document.getElementById("num").value);
+            
+            let i = 1;
+            while (i<=10){
+                console.log(i);
+                i++;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+ <body>
+    <label>numbers</label>
+    <input type="text" id="num"><br><br>
+    <button onclick="raju()">click</button>
+    <span id="check1"></span>
+    <script>
+        function raju(){
+            let n = parseInt(document.getElementById("num").value);
+            let count = 0;
+           while(n!=0){
+             
+             n = parseInt(n/10);
+             count++;
+           }
+           console.log(count);
+        }
+        </script>
+        </body>
+        </html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>numbers</label>
+    <input type="text" id="num"><br><br>
+    <button onclick="check()">click</button>
+    <span id="check"></span>
+    <script>
+        function check(){
+            let a = document.getElementById("num").value;
+            let i =65;
+            while (i<=90){
+                console.log(String.fromCharCode(i));
+                i++;
+            }
+        }
+        </script>
+</body>
+</html>

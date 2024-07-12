@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+ <body>
+    <label>numbers</label>
+    <input type="text" id="num"><br><br>
+    <button onclick="raju()">click</button>
+    <span id="check1"></span>
+    <script>
+        function raju(){
+            let a = parseInt(document.getElementById("num").value);
+            let first , last;
+            first = a;
+            while(first >= 10){
+                first = parseInt(first / 10);
+               
+            }
+            last = a % 10;
+            console.log( first,last);
+           
+           
+        }
+     </script>
+ </body>
+ </html>
